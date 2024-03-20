@@ -6,23 +6,23 @@
 }
 
 #section1 {
-  background-image: url('/images/palmtree.jpg');
+  background-image: url('images/palmtree.jpg');
 }
 
 #section2 {
-  background-image: url('/images/ruins.jpg');
+  background-image: url('images/ruins.jpg');
 }
 
 #section3 {
-  background-image: url('/images/zipline.jpg');
+  background-image: url('images/zipline.jpg');
 }
 
 #section4 {
-  background-image: url('/images/snorkeling.jpg');
+  background-image: url(images/snorkeling.jpg');
 }
 
 #section5 {
-  background-image: url('/images/rainforrest.jpg');
+  background-image: url('images/rainforrest.jpg');
 }
   
 html {
