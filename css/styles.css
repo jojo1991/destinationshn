@@ -49,3 +49,31 @@ html {
 #social-media a:hover {
     color: grey; /* Lighter color on hover */
 }
+
+/* Navbar Styles */
+.navbar {
+  overflow: hidden;
+  background-color: transparent; /* Transparent background */
+  position: fixed; /* Stick navbar to the top */
+  top: 0;
+  width: 100%; /* Full width */
+  z-index: 10; /* Ensure navbar is above other content */
+}
+
+.navbar a {
+  float: left;
+  color: white; /* White text color */
+  text-align: center;
+  padding: 14px 16px; /* Padding around text */
+  text-decoration: none;
+  font-size: 17px; /* Size of the text */
+}
+
+.navbar a:hover {
+  color: yellow; /* Yellow text on hover */
+}
+
+/* Add some top padding to the body to prevent content from being hidden behind the navbar */
+body {
+  padding-top: 50px; /* Adjust as needed based on the navbar height */
+}
