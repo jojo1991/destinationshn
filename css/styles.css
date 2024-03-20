@@ -6,23 +6,24 @@
 }
 
 #section1 {
-  background-image: url('/destinationshn/images/palmtree.jpg');
+  background-image: url('/jennys/images/palmtree.jpg');
+  position: relative;
 }
 
 #section2 {
-  background-image: url('/destinationshn/images/ruins.jpg');
+  background-image: url('/jennys/images/ruins.jpg');
 }
 
 #section3 {
-  background-image: url('/destinationshn/images/zipline.jpg');
+  background-image: url('/jennys/images/zipline.jpg');
 }
 
 #section4 {
-  background-image: url('/destinationshn/images/snorkeling.jpg');
+  background-image: url('/jennys/images/snorkeling.jpg');
 }
 
 #section5 {
-  background-image: url('/destinationshn/images/rainforrest.jpg');
+  background-image: url('/jennys/images/rainforrest.jpg');
 }
   
 html {
@@ -30,7 +31,6 @@ html {
   }
 
   #social-media {
-
     bottom: 0; /* Align to the bottom of the page */
     left: 0; /* Align to the left of the page */
     width: 100%; /* Full width */
@@ -50,30 +50,32 @@ html {
     color: grey; /* Lighter color on hover */
 }
 
+
+/* Navbar Container Styles */
+.navbar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; /* This, combined with left: 0, ensures full width */
+  text-align: center; /* Centers the navbar */
+  z-index: 5; /* Ensure it's above other content */
+}
+
 /* Navbar Styles */
 .navbar {
-  overflow: hidden;
-  background-color: transparent; /* Transparent background */
-  position: fixed; /* Stick navbar to the top */
-  top: 0;
-  width: 100%; /* Full width */
-  z-index: 10; /* Ensure navbar is above other content */
+  display: inline-block; /* This makes the navbar only as wide as its contents */
+  background-color: transparent; /* Ensures the navbar doesn't obscure the background image */
+  padding: 10px 0; /* Optional padding */
 }
 
 .navbar a {
-  float: left;
-  color: white; /* White text color */
-  text-align: center;
-  padding: 14px 16px; /* Padding around text */
-  text-decoration: none;
-  font-size: 17px; /* Size of the text */
+  display: inline-block; /* Allows links to sit side-by-side */
+  color: white; /* Text color */
+  padding: 14px 16px; /* Spacing around text */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 17px; /* Text size */
 }
 
 .navbar a:hover {
-  color: yellow; /* Yellow text on hover */
-}
-
-/* Add some top padding to the body to prevent content from being hidden behind the navbar */
-body {
-  padding-top: 50px; /* Adjust as needed based on the navbar height */
+  color: yellow; /* Color change on hover */
 }
