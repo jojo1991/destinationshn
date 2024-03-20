@@ -1,0 +1,51 @@
+.full-screen {
+  width: 100%;
+  height: 100vh; /* Makes the div take up the full height of the viewport */
+  background-size: cover;
+  background-position: center;
+}
+
+#section1 {
+  background-image: url('/jennys/images/palmtree.jpg');
+}
+
+#section2 {
+  background-image: url('/jennys/images/ruins.jpg');
+}
+
+#section3 {
+  background-image: url('/jennys/images/zipline.jpg');
+}
+
+#section4 {
+  background-image: url('/jennys/images/snorkeling.jpg');
+}
+
+#section5 {
+  background-image: url('/jennys/images/rainforrest.jpg');
+}
+  
+html {
+    scroll-behavior: smooth;
+  }
+
+  #social-media {
+
+    bottom: 0; /* Align to the bottom of the page */
+    left: 0; /* Align to the left of the page */
+    width: 100%; /* Full width */
+    background-color: #fff; /* Dark background for the social media bar */
+    text-align: center; /* Center the icons */
+    padding: 10px 0; /* Some padding */
+    z-index: 100; /* Ensure it's above other content */
+}
+
+#social-media a {
+    color: black; /* White icons */
+    margin: 0 50px; /* Space out the icons */
+    font-size: 50px; /* Size of the icons */
+}
+
+#social-media a:hover {
+    color: grey; /* Lighter color on hover */
+}
